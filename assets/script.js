@@ -14,22 +14,21 @@ $(document).ready(function (){
 
     // Function to calculate current dayjs hour for timeblock
     function timeTracker (){
-        const timeNow = dayjs().hour();
-    }
+        const currentTime = dayjs().hour();
 
-    // Function to loop over each timeblock
+         // Function to loop over each timeblock
     $('.time-block').each(function(){
         const blockTime = parseInt($(this).attr('id').split('hour')[1]);
 
         // Calculate current time and add past class for grey timeblock colour
-        if (blockTime < timeNow){
+        if (blockTime < currentTime){
             $(this).removeClass('future');
             $(this).removeClass('present');
             $(this).addClass('past');
         }
 
         // Calculate current time and add current class for red timeblock colour
-        else if (blockTime === timeNow){
+        else if (blockTime === currentTime){
             $(this).removeClass('past');
             $(this).removeClass('future');
             $(this).addClass('present');
@@ -42,6 +41,7 @@ $(document).ready(function (){
             $(this).addClass('future');
         }
     })
+    }
 
 
 })
