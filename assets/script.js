@@ -49,5 +49,6 @@ $(document).ready(function (){
     $('#hour10 .description').val(localStorage.getItem('hour10'));
     $('#hour11 .description').val(localStorage.getItem('hour11'));
     $('#hour12 .description').val(localStorage.getItem('hour12'));
+    $('#hour13 .description').val(localStorage.getItem('hour13'));
 })
 
