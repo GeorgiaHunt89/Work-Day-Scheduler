@@ -43,6 +43,9 @@ $(document).ready(function (){
     })
     }
 
+    // Recording and retrieving description text in local storage
+    $('#hour8 .description').val(localStorage.getItem('hour8'));
+
 
 })
 
