@@ -8,7 +8,7 @@ $(document).ready(function (){
         const text = $(this).siblings('.description').val();
         const time = $(this).parent().attr('id');
 
-        //Save local time and text input in local storage
+        // Save local time and text input in local storage
         localStorage.setItem(time, text);
     })
 
@@ -18,9 +18,17 @@ $(document).ready(function (){
     }
 
     // Function to loop over each timeblock
-    $('.time-block').each(function (){
+    $('.time-block').each(function(){
         const blockTime = parseInt($(this).attr('id').split('hour')[1]);
-        
+
+        // Calculate current time and add past class for red timeblock colour
+        if (blockTime < timeNow){
+            $(this).removeClass('future');
+            $(this).removeClass('present');
+            $(this).addClass('past');
+        }
     })
+
+
 })
 
