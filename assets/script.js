@@ -16,5 +16,11 @@ $(document).ready(function (){
     function timeTracker (){
         const timeNow = dayjs().hour();
     }
+
+    // Function to loop over each timeblock
+    $('.time-block').each(function (){
+        const blockTime = parseInt($(this).attr('id').split('hour')[1]);
+        
+    })
 })
 
