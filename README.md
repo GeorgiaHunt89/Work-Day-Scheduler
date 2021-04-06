@@ -11,15 +11,15 @@ This application helps to improve employee productivity by ensuring tasks are ac
 https://georgiahunt89.github.io/Work-Day-Scheduler/
 
 ## Repo Contents
-1. The README.md file
+1. This README.md file
 2. index.html file
-3. Assets folder containing:
-        a. style.css file
-        b. .DS_Store
-        c. javascript.js file
-        d. Images folder containing:
-                - Screenshots of daily scheduler in action.
-
+3. assets folder containing:<br>
+     a. style.css file<br>
+     b. .DS_Store<br>
+     c. javaScript.js file<br>
+     d. Images folder containing:<br>
+          - Images of the work day scheduler in action.
+       
 ## What did I learn
 I further developed my knowledge of localStorage abilities while implementing a new understanding of jQuery, Bootstrap and Dayjs to create a dynamic application.
 <br>
