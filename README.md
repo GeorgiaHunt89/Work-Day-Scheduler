@@ -19,3 +19,7 @@ https://georgiahunt89.github.io/Work-Day-Scheduler/
         c. javascript.js file
         d. Images folder containing:
                 - Screenshot of daily scheduler in action.
+
+## What did I learn
+I further developed my knowledge of localStorage abilities while implementing a new understanding of jQuery, Bootstrap and Dayjs to create a dynamic application.
+This application tested my understanding of Third Party API's in particular Dayjs to access the current time and date and jQuery which provides a simplified alternative to standard javaScript. 
