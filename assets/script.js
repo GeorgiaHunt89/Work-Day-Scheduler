@@ -34,6 +34,13 @@ $(document).ready(function (){
             $(this).removeClass('future');
             $(this).addClass('present');
         }
+
+        // Calculate current time and add future class for green timeblock colour
+        else {
+            $(this).removeClass('present');
+            $(this).removeClass('past');
+            $(this).addClass('future');
+        }
     })
 
 
