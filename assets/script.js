@@ -16,7 +16,7 @@ $(document).ready(function (){
     function timeTracker (){
         const currentTime = dayjs().hour();
 
-         // Function to loop over each timeblock
+    // Function to loop over each timeblock
     $('.time-block').each(function(){
         const blockTime = parseInt($(this).attr('id').split('hour')[1]);
 
@@ -55,7 +55,7 @@ $(document).ready(function (){
     $('#hour16 .description').val(localStorage.getItem('hour16'));
     $('#hour17 .description').val(localStorage.getItem('hour17'));
 
-    // Call time tracker function
+    // Call timeTracker function
     timeTracker();
 })
 
