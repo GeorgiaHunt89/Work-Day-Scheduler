@@ -11,5 +11,10 @@ $(document).ready(function (){
         //Save local time and text input in local storage
         localStorage.setItem(time, text);
     })
+
+    // Function to calculate current dayjs hour for timeblock
+    function timeTracker (){
+        const timeNow = dayjs().hour();
+    }
 })
 
