@@ -72,7 +72,7 @@ body {
   
   /* Media Query CSS to ensure UI for tablets and mobile phones 768px and smaller */
 
-  @media screen and (max-width 768px), screen and (max-width: 200px){
+  @media (min-width: @screen-md-min) and (max-width: @screen-md-max){
       .row {
           height: auto;
           margin-top: 20px;
