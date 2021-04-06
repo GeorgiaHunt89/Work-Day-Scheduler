@@ -1,4 +1,4 @@
-#Work Day Scheduler
+# Work Day Scheduler
 
 ## Description
 This application helps to improve employee productivity by ensuring tasks are acknowledged with a simple daily breakdown. The work day scheduler provides:
@@ -18,8 +18,13 @@ https://georgiahunt89.github.io/Work-Day-Scheduler/
         b. .DS_Store
         c. javascript.js file
         d. Images folder containing:
-                - Screenshot of daily scheduler in action.
+                - Screenshots of daily scheduler in action.
 
 ## What did I learn
 I further developed my knowledge of localStorage abilities while implementing a new understanding of jQuery, Bootstrap and Dayjs to create a dynamic application.
+<br>
 This application tested my understanding of Third Party API's in particular Dayjs to access the current time and date and jQuery which provides a simplified alternative to standard javaScript. 
+
+## Screenshots of Work Day Scheduler in action
+![Work-Day-Scheduler-9am-till-12pm](https://github.com/GeorgiaHunt89/Work-Day-Scheduler/blob/main/assets/Images/Work-Day-Scheduler-9am-till-12pm.png)
+![Work-Day-Scheduler-12pm-till-5pm](https://github.com/GeorgiaHunt89/Work-Day-Scheduler/blob/main/assets/Images/Work-Day-Scheduler-12pm-till-5pm.png)
