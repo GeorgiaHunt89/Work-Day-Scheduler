@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -71,7 +75,6 @@ body {
   }
   
   /* Media Query CSS to ensure UI for tablets and mobile phones 768px and smaller */
-
   @media (min-width: @screen-md-min) and (max-width: @screen-md-max){
       .row {
           height: auto;
