@@ -21,11 +21,18 @@ $(document).ready(function (){
     $('.time-block').each(function(){
         const blockTime = parseInt($(this).attr('id').split('hour')[1]);
 
-        // Calculate current time and add past class for red timeblock colour
+        // Calculate current time and add past class for grey timeblock colour
         if (blockTime < timeNow){
             $(this).removeClass('future');
             $(this).removeClass('present');
             $(this).addClass('past');
+        }
+
+        // Calculate current time and add current class for red timeblock colour
+        else if (blockTime === timeNow){
+            $(this).removeClass('past');
+            $(this).removeClass('future');
+            $(this).addClass('present');
         }
     })
 
